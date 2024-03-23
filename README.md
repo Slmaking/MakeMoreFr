@@ -1,6 +1,6 @@
 # MakeMoreFr
 
-In this project, I've developed a model aimed at generating names based on their French counterparts. This endeavor was inspired by methods discussed by Andrej Karpathy, as presented on his [YouTube channel](https://www.youtube.com/@AndrejKarpathy). My approach incorporates slight modifications to tailor the model for the peculiarities of the French language, particularly its dataset. 
+In this project, I have developed a model aimed at generating names based on their French counterparts. This endeavor was inspired by methods discussed by Andrej Karpathy, as presented on his [YouTube channel](https://www.youtube.com/@AndrejKarpathy). My approach incorporates slight modifications to tailor the model for the peculiarities of the French language, particularly its dataset. 
 
 The dataset employed contains 11,627 first names, encompassing a character set of 55 unique symbols. These names predominantly range from 6 to 7 characters in length, reflecting a typical structure in French nomenclature. A notable challenge in adapting English-based naming models to French is the latter's use of special characters, such as hyphens ('-') and apostrophes ('\''), not to mention various accentuated characters which are integral to the language.
 
