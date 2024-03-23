@@ -27,6 +27,10 @@ In the initial phase of our project, we explored the application of a bigram mod
 The bigram model operates on the principle that the likelihood of a character appearing in a name depends on its preceding character. This approach is particularly suited to languages like French, where character combinations frequently follow specific patterns, influenced by the language's phonetic and grammatical rules.
 
 
+Given that you're transitioning from a bigram approach to experimenting with a Multilayer Perceptron (MLP) model for name generation, it's clear you're delving into more complex neural network architectures for this task. Here’s a structured way to discuss or document the MLP model based on your reference to the Colab notebook:
 
+## MLP Model 
 
+The details of this implementation are captured in a publicly accessible [Google Colab notebook](Given that you're transitioning from a bigram approach to experimenting with a Multilayer Perceptron (MLP) model for name generation, it's clear you're delving into more complex neural network architectures for this task. Here’s a structured way to discuss or document the MLP model based on your reference to the Colab notebook:
 
+Following the exploration of bigram models, our project advanced to employing a Multilayer Perceptron (MLP) model, aimed at capturing more nuanced patterns within the French naming dataset. The details of this implementation are captured in a publicly accessible [Google Colab notebook](https://github.com/Slmaking/MakeMoreFr/blob/main/code/MakeMoreFr_MLP.ipynb).
