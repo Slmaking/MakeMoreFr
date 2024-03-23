@@ -14,9 +14,19 @@ The character mapping used in the model is as follows:
 40: 'ë', 41: 'ì', 42: 'í', 43: 'ï', 44: 'ð', 45: 'ñ', 46: 'ò', 47: 'ó', 48: 'ô', 49: 'õ', 
 50: 'ö', 51: 'ø', 52: 'ù', 53: 'ú', 54: 'ü', 55: 'þ'}
 ```
-
-This character set reflects the linguistic richness and diversity of the French language, including punctuation and accent marks that are pivotal for accurate name representation. Through careful adaptation and testing, the model aims to produce names that are not only phonetically and structurally coherent but also culturally resonant with French linguistic patterns.
-
-
-
 ![image](https://github.com/Slmaking/MakeMoreFr/assets/58626257/275deb27-d5d6-4be9-a905-5153f25f0032)
+
+This character set reflects the linguistic richness and diversity of the French language, including punctuation and accent marks that are pivotal for accurate name representation. 
+Through careful adaptation and testing, the model aims to produce names that are not only phonetically and structurally coherent but also culturally resonant with French linguistic patterns.
+
+## the Bigram Model 
+
+In the initial phase of our project, we explored the application of a bigram model for generating French names, a methodology inspired by the classical approaches in natural language processing. The bigram model, which considers pairs of characters (or "biograms") to predict subsequent characters in sequences, was applied to our dataset of French first names. The implementation details and findings are documented in our [GitHub repository](https://github.com/Slmaking/MakeMoreFr/blob/main/code/MakemoreFr_biogram.ipynb).
+
+
+The bigram model operates on the principle that the likelihood of a character appearing in a name depends on its preceding character. This approach is particularly suited to languages like French, where character combinations frequently follow specific patterns, influenced by the language's phonetic and grammatical rules.
+
+
+
+
+
